@@ -6,6 +6,7 @@ function Projects() {
       title: 'Tag Royale',
       award: 'Best School Crossover',
       hackathon: 'cuHacking 6',
+      year: '2025',
       description: 'A location-based mobile game that transforms traditional tag into an immersive battle royale experience. Features real-time GPS tracking, automated tag detection, shrinking safezones, and multiplayer gameplay with WebSockets.',
       tags: ['React Native', 'TypeScript', 'Express', 'Socket.io', 'WebSockets', 'Geolocation API', 'React Navigation'],
       live: 'https://devpost.com/software/tag-royale',
@@ -15,6 +16,7 @@ function Projects() {
       title: 'RelaxED AI',
       award: 'Best Hardware Hack',
       hackathon: 'Hack the Hill II',
+      year: '2024',
       description: 'A wearable stress monitoring system with an ESP-32 board that tracks pulse and body temperature. Data syncs to a web app where users can view AI-powered stress analysis and chat with a fine-tuned OpenAI model for insights.',
       tags: ['React', 'TypeScript', 'MongoDB', 'Express.js', 'Node.js', 'Python', 'C', 'CMake', 'OpenAI API', 'Bluetooth'],
       live: 'https://devpost.com/software/relaxed-ai',
@@ -23,7 +25,8 @@ function Projects() {
     {
       title: 'RehabTrack',
       award: null,
-      hackathon: 'TerraHacks 2025',
+      hackathon: 'TerraHacks',
+      year: '2025',
       description: 'A physiotherapy compliance platform that uses AI video analysis to verify prescribed exercises and mints personalized NFTs as proof of completion. Features a doctor dashboard for tracking patient progress and a patient portal with form corrections and earned badges.',
       tags: ['Next.js', 'React', 'Supabase', 'Gemini API', 'Thirdweb', 'MetaMask', 'NFT', 'Polygon'],
       live: 'https://devpost.com/software/rehabtrack',
@@ -33,6 +36,7 @@ function Projects() {
       title: 'NBA Performance Dashboard',
       award: null,
       hackathon: null,
+      year: '2025',
       description: 'An interactive data visualization dashboard for analyzing NBA player and team performance statistics. Features dynamic charts, player comparisons, and real-time data exploration hosted on Hugging Face Spaces.',
       tags: ['Python', 'Streamlit', 'Pandas', 'Plotly', 'Data Visualization', 'Hugging Face'],
       live: 'https://huggingface.co/spaces/ShawnTheShark/nba-dashboard',
@@ -42,6 +46,7 @@ function Projects() {
       title: 'EAMS',
       award: null,
       hackathon: null,
+      year: '2024',
       description: 'An Event Attendance Management System Android app built for SEG 2105. Features user authentication, event creation and registration, attendee management, and real-time data synchronization with Firebase.',
       tags: ['Java', 'Android', 'Firebase', 'Gradle', 'XML', 'JUnit'],
       live: 'https://github.com/uOttawaSEG/project-project-group-2',
@@ -51,6 +56,7 @@ function Projects() {
       title: 'TerraSphere',
       award: null,
       hackathon: 'TerraHacks',
+      year: '2024',
       description: 'An eco-friendly mobile app that rewards users for daily ecological deeds. Users take photos of their environmental actions, earn points for consecutive days, and can locate nearby environmental initiatives using Google Maps.',
       tags: ['React Native', 'Redux Toolkit', 'OpenAI Camera Vision API', 'Google Maps API', 'Tailwind CSS'],
       live: 'https://devpost.com/software/terrasphere',
@@ -96,12 +102,17 @@ function Projects() {
                 {project.award && (
                   <div className="project-award">
                     <span className="award-badge">🏆 {project.award}</span>
-                    <span className="hackathon-name">{project.hackathon}</span>
+                    <span className="hackathon-name">{project.hackathon} | {project.year}</span>
                   </div>
                 )}
                 {!project.award && project.hackathon && (
                   <div className="project-award">
-                    <span className="hackathon-name">{project.hackathon}</span>
+                    <span className="hackathon-name">{project.hackathon} | {project.year}</span>
+                  </div>
+                )}
+                {!project.hackathon && project.year && (
+                  <div className="project-award">
+                    <span className="hackathon-name">{project.year}</span>
                   </div>
                 )}
                 <div className="project-header">
