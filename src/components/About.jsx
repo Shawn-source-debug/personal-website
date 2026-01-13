@@ -2,10 +2,10 @@ import './About.css'
 
 function About() {
   const skills = [
-    { category: 'Languages', items: ['Python', 'Java', 'JavaScript', 'C/C++', 'SQL'] },
-    { category: 'Frontend', items: ['React', 'HTML/CSS', 'Tailwind CSS'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'REST APIs'] },
-    { category: 'Tools', items: ['Git', 'VS Code', 'Linux', 'Docker'] },
+    { category: 'Languages', items: ['C++', 'Python', 'Java', 'JavaScript', 'TypeScript', 'HTML/CSS', 'SQL'] },
+    { category: 'Technologies', items: ['React', 'React Native', 'Node.js', 'Express.js', 'Next.js', 'Redux', 'Socket.io', 'OpenCV', 'Scikit-Learn', 'Docker'] },
+    { category: 'Databases', items: ['MongoDB', 'Supabase', 'Firebase', 'MySQL'] },
+    { category: 'Tools & Platforms', items: ['Git', 'Visual Studio', 'VS Code', 'PyCharm', 'Eclipse', 'Figma', 'Jira'] },
   ]
 
   return (
