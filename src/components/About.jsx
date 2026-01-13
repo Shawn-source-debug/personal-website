@@ -38,9 +38,8 @@ function About() {
             </p>
 
             <p>
-              When I'm not coding, you'll find me exploring new technologies 
-              or participating in hackathons. I'm always eager 
-              to learn and take on new challenges.
+              I love exploring new technologies and participating in hackathons. 
+              I'm always eager to learn and take on new challenges.
             </p>
 
             <p>
