@@ -23,6 +23,16 @@ function Projects() {
       image: '/images/relaxedai.png',
     },
     {
+      title: 'Safety Switch',
+      award: null,
+      hackathon: 'uOttaHack 8',
+      year: '2026',
+      description: 'A real-time embedded safety system that detects when a human is at risk of injury and stops moving machinery with sub-millisecond latency. Built with QNX RTOS on Raspberry Pi, leveraging GPIO interrupts for safety-critical applications.',
+      tags: ['C', 'QNX', 'Raspberry Pi', 'Embedded Systems', 'GPIO', 'Real-Time Computing'],
+      live: 'https://devpost.com/software/safety-switch',
+      image: '/images/safetyswitch.png',
+    },
+    {
       title: 'RehabTrack',
       award: null,
       hackathon: 'TerraHacks',
