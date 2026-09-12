@@ -137,7 +137,7 @@ function Projects() {
                     <span className="hackathon-name">{project.hackathon} | {project.date}</span>
                   </div>
                 )}
-                {!project.hackathon && project.year && (
+                {!project.award && !project.hackathon && project.year && (
                   <div className="project-award">
                     <span className="hackathon-name">{project.date}</span>
                   </div>
