@@ -73,6 +73,22 @@
   color: var(--primary-color);
 }
 
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.experience-tags span {
+  background: rgba(100, 255, 218, 0.1);
+  color: var(--primary-color);
+  padding: 0.3rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
 @media (max-width: 600px) {
   .experience {
     padding: 4rem 1rem;

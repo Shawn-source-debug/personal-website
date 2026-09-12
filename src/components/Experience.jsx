@@ -32,6 +32,12 @@ function Experience() {
             <li>Partnered directly with the CFO to deliver data analysis and reporting, querying and analyzing data with SQL and building automation tools in Excel and VBA to support financial decision-making.</li>
             <li>Administered the company&apos;s Windows Server environment and Ubiquiti network infrastructure, monitoring systems and troubleshooting issues to maintain uptime for business operations.</li>
           </ul>
+
+          <div className="experience-tags" aria-label="Technologies used">
+            {['Python', 'SQL', 'Excel/VBA', 'Microsoft Dynamics ERP', 'Windows Server'].map((technology) => (
+              <span key={technology}>{technology}</span>
+            ))}
+          </div>
         </article>
       </div>
     </section>
