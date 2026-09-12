@@ -26,6 +26,7 @@ function Hero() {
           
           <div className="hero-cta">
             <a href="#projects" className="btn btn-primary">View Projects</a>
+            <a href="#experience" className="btn btn-secondary">View Experience</a>
             <a href="#contact" className="btn btn-secondary">Get in Touch</a>
           </div>
 
