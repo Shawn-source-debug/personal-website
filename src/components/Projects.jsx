@@ -4,21 +4,23 @@ function Projects() {
   const projects = [
     {
       title: 'Tag Royale',
-      award: 'Best School Crossover',
-      hackathon: 'cuHacking 6',
+      award: 'Best Crossover Hack',
+      hackathon: null,
       year: '2025',
-      description: 'A location-based mobile game that transforms traditional tag into an immersive battle royale experience. Features real-time GPS tracking, automated tag detection, shrinking safezones, and multiplayer gameplay with WebSockets.',
-      tags: ['React Native', 'TypeScript', 'Express', 'Socket.io', 'WebSockets', 'Geolocation API', 'React Navigation'],
+      date: 'Mar. 2025',
+      description: 'A location-based multiplayer game built with low-latency, bi-directional communication. Designed a fault-tolerant networking layer with automatic host migration so gameplay continues if the host disconnects.',
+      tags: ['React Native', 'TypeScript', 'WebSockets', 'Socket.io'],
       live: 'https://devpost.com/software/tag-royale',
       image: '/images/tagroyale.png',
     },
     {
       title: 'RelaxED AI',
-      award: 'Best Hardware Hack',
-      hackathon: 'Hack the Hill II',
+      award: '2nd Place',
+      hackathon: null,
       year: '2024',
-      description: 'A wearable stress monitoring system with an ESP-32 board that tracks pulse and body temperature. Data syncs to a web app where users can view AI-powered stress analysis and chat with a fine-tuned OpenAI model for insights.',
-      tags: ['React', 'TypeScript', 'MongoDB', 'Express.js', 'Node.js', 'Python', 'C', 'CMake', 'OpenAI API', 'Bluetooth'],
+      date: 'Sep. 2024',
+      description: 'A personalized wellness platform that uses AI to deliver insights from user data. Led backend engineering and built a RESTful API to coordinate data between the React frontend and MongoDB database.',
+      tags: ['Express', 'MongoDB', 'Python', 'React'],
       live: 'https://devpost.com/software/relaxed-ai',
       image: '/images/relaxedai.png',
     },
@@ -27,8 +29,9 @@ function Projects() {
       award: null,
       hackathon: 'uOttaHack 8',
       year: '2026',
-      description: 'A real-time embedded safety system that detects when a human is at risk of injury and stops moving machinery with sub-millisecond latency. Built with QNX RTOS on Raspberry Pi, leveraging GPIO interrupts for safety-critical applications.',
-      tags: ['C', 'QNX', 'Raspberry Pi', 'Embedded Systems', 'GPIO', 'Real-Time Computing'],
+      date: 'Jan. 2026',
+      description: 'A hardware safety system that detects risk and stops moving machinery. Prototyped sensor logic in Python, then rewrote the core execution layer in C with direct memory mapping for microsecond-precision GPIO control.',
+      tags: ['Python', 'C', 'Hardware Interface', 'IoT'],
       live: 'https://devpost.com/software/safety-switch',
       image: '/images/safetyswitch.png',
     },
@@ -43,12 +46,13 @@ function Projects() {
       image: '/images/rehabtrack.png',
     },
     {
-      title: 'NBA Performance Dashboard',
+      title: 'NBA Analytics Dashboard',
       award: null,
       hackathon: null,
       year: '2025',
-      description: 'An interactive data visualization dashboard for analyzing NBA player and team performance statistics. Features dynamic charts, player comparisons, and real-time data exploration hosted on Hugging Face Spaces.',
-      tags: ['Python', 'Streamlit', 'Pandas', 'Plotly', 'Data Visualization', 'Hugging Face'],
+      date: 'Nov. 2025',
+      description: 'A full-stack analytics platform for visualizing more than 20 years of NBA data with real-time WebSocket interactivity. Implemented K-Means clustering to identify player archetypes and containerized the application for cloud deployment.',
+      tags: ['Python', 'Panel', 'Scikit-Learn', 'Docker'],
       live: 'https://huggingface.co/spaces/ShawnTheShark/nba-dashboard',
       image: '/images/nba-dashboard.png',
     },
@@ -57,16 +61,29 @@ function Projects() {
       award: null,
       hackathon: null,
       year: '2024',
+      date: 'Sep. 2024 - Dec. 2024',
       description: 'An Event Attendance Management System Android app built for SEG 2105. Features user authentication, event creation and registration, attendee management, and real-time data synchronization with Firebase.',
       tags: ['Java', 'Android', 'Firebase', 'Gradle', 'XML', 'JUnit'],
       live: 'https://github.com/uOttawaSEG/project-project-group-2',
       image: '/images/eams.png',
     },
     {
+      title: 'ActiVision',
+      award: null,
+      hackathon: null,
+      year: '2025',
+      date: 'Jan. 2025',
+      description: 'A gamified fitness application built by a four-person agile team. Developed a computer vision pipeline with OpenCV for physical movement tracking and architected the Node.js and MongoDB backend.',
+      tags: ['Node.js', 'React', 'OpenCV', 'MongoDB'],
+      live: 'https://github.com/Shawn-source-debug',
+      image: null,
+    },
+    {
       title: 'TerraSphere',
       award: null,
       hackathon: 'TerraHacks',
       year: '2024',
+      date: '2024',
       description: 'An eco-friendly mobile app that rewards users for daily ecological deeds. Users take photos of their environmental actions, earn points for consecutive days, and can locate nearby environmental initiatives using Google Maps.',
       tags: ['React Native', 'Redux Toolkit', 'OpenAI Camera Vision API', 'Google Maps API', 'Tailwind CSS'],
       live: 'https://devpost.com/software/terrasphere',
@@ -112,17 +129,17 @@ function Projects() {
                 {project.award && (
                   <div className="project-award">
                     <span className="award-badge">🏆 {project.award}</span>
-                    <span className="hackathon-name">{project.hackathon} | {project.year}</span>
+                    <span className="hackathon-name">{project.hackathon || project.date}</span>
                   </div>
                 )}
                 {!project.award && project.hackathon && (
                   <div className="project-award">
-                    <span className="hackathon-name">{project.hackathon} | {project.year}</span>
+                    <span className="hackathon-name">{project.hackathon} | {project.date}</span>
                   </div>
                 )}
                 {!project.hackathon && project.year && (
                   <div className="project-award">
-                    <span className="hackathon-name">{project.year}</span>
+                    <span className="hackathon-name">{project.date}</span>
                   </div>
                 )}
                 <div className="project-header">

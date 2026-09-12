@@ -17,7 +17,7 @@ function Hero() {
             <span className="last-name">How.</span>
           </h1>
           <p className="hero-description">
-            Computer Science & Math Student at the <span className="highlight">University of Ottawa</span>
+            Data Science Student at the <span className="highlight">University of Ottawa</span>
             <br />
             <span className="hero-tagline">
               Passionate about building innovative software solutions and solving complex problems.

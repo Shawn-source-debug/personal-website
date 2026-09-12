@@ -2,10 +2,10 @@ import './About.css'
 
 function About() {
   const skills = [
-    { category: 'Languages', items: ['C++', 'Python', 'Java', 'JavaScript', 'TypeScript', 'HTML/CSS', 'SQL'] },
-    { category: 'Technologies', items: ['React', 'React Native', 'Node.js', 'Express.js', 'Next.js', 'Redux', 'Socket.io', 'OpenCV', 'Scikit-Learn', 'Docker'] },
-    { category: 'Databases', items: ['MongoDB', 'Supabase', 'Firebase', 'MySQL'] },
-    { category: 'Tools & Platforms', items: ['Git', 'Visual Studio', 'VS Code', 'PyCharm', 'Eclipse', 'Figma', 'Jira'] },
+    { category: 'Languages', items: ['C', 'C++', 'Python', 'Java', 'JavaScript', 'TypeScript', 'SQL', 'VBA', 'HTML/CSS'] },
+    { category: 'Frameworks & Technologies', items: ['React', 'React Native', 'Node.js', 'Express.js', 'Next.js', 'Redux', 'Socket.io', 'OpenCV', 'Scikit-Learn', 'Docker'] },
+    { category: 'Databases & Systems', items: ['MongoDB', 'Firebase', 'Microsoft SQL Server', 'MySQL', 'Supabase', 'Windows Server', 'Microsoft Dynamics ERP', 'Ubiquiti Networking'] },
+    { category: 'Tools', items: ['Git', 'GitHub', 'Figma', 'Jira'] },
   ]
 
   return (
@@ -26,9 +26,9 @@ function About() {
             <h3 className="about-subtitle">I'm a Software Developer.</h3>
             
             <p>
-              I'm a third-year Computer Science and Mathematics student at the 
-              <span className="highlight"> University of Ottawa</span>, passionate about 
-              building software that makes a difference.
+              I'm pursuing an <span className="highlight">Honours BSc in Data Science</span> at the 
+              <span className="highlight"> University of Ottawa</span>, with a focus on Computer Science and Mathematics.
+              I currently maintain a 3.7/4.0 GPA and am passionate about building software that makes a difference.
             </p>
 
             <p>
@@ -43,7 +43,7 @@ function About() {
             </p>
 
             <p>
-              Currently seeking <span className="highlight">Summer 2026 internship opportunities</span> where 
+              Currently seeking <span className="highlight">Winter 2027 internship opportunities</span> where 
               I can contribute to meaningful projects and grow as a developer.
             </p>
 

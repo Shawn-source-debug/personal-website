@@ -33,6 +33,7 @@ function Navbar({ isMenuOpen, setIsMenuOpen }) {
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <li><a href="#home" onClick={() => setIsMenuOpen(false)}>Home</a></li>
           <li><a href="#about" onClick={() => setIsMenuOpen(false)}>About</a></li>
+          <li><a href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</a></li>
           <li><a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a></li>
           <li><a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a></li>
         </ul>
