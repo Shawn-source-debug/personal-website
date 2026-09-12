@@ -32,6 +32,11 @@ function About() {
             </p>
 
             <p>
+              Relevant coursework includes Data Structures &amp; Algorithms, Design &amp; Analysis of Algorithms,
+              Computer Architecture, Operating Systems, Databases, Software Engineering, and Probability &amp; Statistics.
+            </p>
+
+            <p>
               My academic journey has equipped me with strong foundations in algorithms, 
               data structures, and mathematical problem-solving. I love applying these 
               skills to create efficient, scalable solutions.
