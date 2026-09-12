@@ -11,6 +11,11 @@ function Experience() {
 
         <article className="experience-card">
           <div className="experience-heading">
+            <img
+              className="experience-logo"
+              src="/images/a1-dynamics-logo.svg"
+              alt="A1 Dynamics Ltd."
+            />
             <div>
               <h3>A1 Dynamics</h3>
               <p className="experience-role">IT Systems &amp; Automation Intern</p>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 468" role="img" aria-labelledby="title desc">
+  <title id="title">A1 Dynamics Ltd. logo</title>
+  <desc id="desc">A stylized navy and gold A1 Dynamics Ltd. logo</desc>
+  <g fill="none" stroke-linejoin="miter">
+    <path d="M378 4 315 110l38 49 25-42 75 126 43-27z" fill="#1b3445" stroke="#1b3445" stroke-width="2"/>
+    <path d="m315 110-104 181h59l75-131zM456 216l-43 27 76 129H159l-33 55h470z" fill="#e2bd51" stroke="#e2bd51" stroke-width="2"/>
+  </g>
+  <text x="384" y="468" fill="#1b3445" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" text-anchor="middle" letter-spacing="1">A1 DYNAMICS LTD.</text>
+</svg>
