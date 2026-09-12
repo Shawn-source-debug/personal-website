@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">ActiVision project thumbnail</title>
+  <desc id="desc">A computer vision fitness project visual with a moving figure and tracking frame</desc>
+  <rect width="800" height="450" fill="#172527"/>
+  <path d="M0 365h800" stroke="#244144" stroke-width="3"/>
+  <g fill="none" stroke="#64ffda" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="114" y="82" width="572" height="270" rx="18" stroke-width="5" opacity=".5"/>
+    <path d="M114 125V104c0-12 10-22 22-22h22M686 125v-21c0-12-10-22-22-22h-22M114 309v21c0 12 10 22 22 22h22M686 309v21c0 12-10 22-22 22h-22" stroke-width="7"/>
+    <circle cx="400" cy="151" r="27" stroke-width="8"/>
+    <path d="M400 180v92M400 205l-76 60M400 205l84 42M400 272l-62 76M400 272l72 76" stroke-width="10"/>
+    <path d="M293 174h-42M507 174h42M293 291h-42M507 291h42" stroke-width="5" opacity=".8"/>
+  </g>
+  <g fill="#64ffda" font-family="Arial, Helvetica, sans-serif">
+    <text x="400" y="412" font-size="38" font-weight="700" text-anchor="middle" letter-spacing="5">ACTIVISION</text>
+    <text x="400" y="438" font-size="15" text-anchor="middle" letter-spacing="3" opacity=".75">COMPUTER VISION FITNESS</text>
+  </g>
+</svg>

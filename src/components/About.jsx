@@ -26,8 +26,8 @@ function About() {
             <h3 className="about-subtitle">I'm a Software Developer.</h3>
             
             <p>
-              I'm pursuing an <span className="highlight">Honours BSc in Data Science</span> at the 
-              <span className="highlight"> University of Ottawa</span>, with a focus on Computer Science and Mathematics.
+              I'm pursuing an <span className="highlight">Honours B.Sc. in Mathematics / Honours B.Sc. in Computer Science (Data Science)</span> at the
+              <span className="highlight"> University of Ottawa</span>.
               I currently maintain a 3.7/4.0 GPA and am passionate about building software that makes a difference.
             </p>
 

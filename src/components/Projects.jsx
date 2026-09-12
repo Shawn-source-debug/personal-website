@@ -76,7 +76,7 @@ function Projects() {
       description: 'A gamified fitness application built by a four-person agile team. Developed a computer vision pipeline with OpenCV for physical movement tracking and architected the Node.js and MongoDB backend.',
       tags: ['Node.js', 'React', 'OpenCV', 'MongoDB'],
       live: 'https://github.com/Shawn-source-debug',
-      image: null,
+      image: '/images/activision.png.svg',
     },
     {
       title: 'TerraSphere',
