@@ -3,9 +3,8 @@ import './About.css'
 function About() {
   const skills = [
     { category: 'Languages', items: ['C', 'C++', 'Python', 'Java', 'JavaScript', 'TypeScript', 'SQL', 'VBA', 'HTML/CSS'] },
-    { category: 'Frameworks & Technologies', items: ['React', 'React Native', 'Node.js', 'Express.js', 'Next.js', 'Redux', 'Socket.io', 'OpenCV', 'Scikit-Learn', 'Docker'] },
-    { category: 'Databases & Systems', items: ['MongoDB', 'Firebase', 'Microsoft SQL Server', 'MySQL', 'Supabase', 'Windows Server', 'Microsoft Dynamics ERP', 'Ubiquiti Networking'] },
-    { category: 'Tools', items: ['Git', 'GitHub', 'Figma', 'Jira'] },
+    { category: 'Frameworks & Libraries', items: ['React', 'React Native', 'Node.js', 'Express.js', 'Next.js', 'Redux', 'Socket.io', 'OpenCV', 'Scikit-Learn', 'Docker'] },
+    { category: 'Databases, Systems & Tools', items: ['MongoDB', 'Firebase', 'Microsoft SQL Server', 'MySQL', 'Supabase', 'Windows Server', 'MS Dynamics ERP', 'Power Automate', 'Ubiquiti Networking', 'Git', 'GitHub', 'Figma', 'Jira'] },
   ]
 
   return (

@@ -14,6 +14,7 @@
   border-left: 3px solid var(--primary-color);
   border-radius: 12px;
   padding: 2rem;
+  margin-bottom: 1.5rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
 }
 
@@ -29,6 +30,17 @@
   height: 92px;
   object-fit: contain;
   flex: 0 0 auto;
+}
+
+.experience-logo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #007a33;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
 }
 
 .experience-heading h3 {

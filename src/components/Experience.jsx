@@ -11,6 +11,32 @@ function Experience() {
 
         <article className="experience-card">
           <div className="experience-heading">
+            <div className="experience-logo experience-logo-text" aria-label="BMO Capital Markets">BMO</div>
+            <div>
+              <h3>BMO Capital Markets</h3>
+              <p className="experience-role">Client Enablement Analyst - COO Office</p>
+            </div>
+            <div className="experience-meta">
+              <span>Jan. 2027 - Apr. 2027</span>
+              <span>Toronto, Canada</span>
+            </div>
+          </div>
+
+          <ul className="experience-details">
+            <li>Supported the Client Enablement mandate within the COO Office, coordinating institutional client onboarding, lifecycle operations, and source system data quality assurance (QA) across Capital Markets.</li>
+            <li>Developed and deployed process automation workflows using Power Automate and low-code solutions, eliminating manual handoffs, reducing operational risk, and accelerating onboarding turnaround.</li>
+            <li>Designed and produced operational KPI dashboards and executive metrics reporting, providing COO leadership with actionable visibility into institutional pipeline volume and onboarding velocity.</li>
+          </ul>
+
+          <div className="experience-tags" aria-label="Technologies used">
+            {['Power Automate', 'Python', 'SQL', 'Process Automation', 'Data QA'].map((technology) => (
+              <span key={technology}>{technology}</span>
+            ))}
+          </div>
+        </article>
+
+        <article className="experience-card">
+          <div className="experience-heading">
             <img
               className="experience-logo"
               src="/images/a1-dynamics-logo.svg"
@@ -22,7 +48,7 @@ function Experience() {
             </div>
             <div className="experience-meta">
               <span>May 2026 - Aug. 2026</span>
-              <span>Canada</span>
+              <span>Markham, Canada</span>
             </div>
           </div>
 
