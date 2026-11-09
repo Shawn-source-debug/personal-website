@@ -11,7 +11,11 @@ function Experience() {
 
         <article className="experience-card">
           <div className="experience-heading">
-            <div className="experience-logo experience-logo-text" aria-label="BMO Capital Markets">BMO</div>
+            <img
+              className="experience-logo"
+              src="/images/BMO_Capital_Markets_logo.svg.webp"
+              alt="BMO Capital Markets"
+            />
             <div>
               <h3>BMO Capital Markets</h3>
               <p className="experience-role">Client Enablement Analyst - COO Office</p>
