@@ -47,7 +47,7 @@ function About() {
             </p>
 
             <p>
-              Currently seeking <span className="highlight">Winter 2027 internship opportunities</span> where 
+              Currently seeking <span className="highlight">Summer 2027 internship opportunities</span> where 
               I can contribute to meaningful projects and grow as a developer.
             </p>
 
