@@ -10,7 +10,7 @@ function Hero() {
       
       <div className="hero-content">
         <div className="hero-text">
-          <p className="hero-greeting">Hi, I'm</p>
+          <p className="hero-greeting">Hi, I&apos;m</p>
           <h1 className="hero-name">
             <span className="first-name">Shawn</span>
             <br />

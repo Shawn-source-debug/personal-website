@@ -18,14 +18,14 @@ function About() {
         <div className="about-content">
           <div className="about-image">
             <img src="/images/about-photo.jpg" alt="Shawn How with teammates at a hackathon" />
-            <p className="image-caption">That's me on the left!</p>
+            <p className="image-caption">That&apos;s me on the left!</p>
           </div>
 
           <div className="about-text">
-            <h3 className="about-subtitle">I'm a Software Developer.</h3>
+            <h3 className="about-subtitle">I&apos;m a Software Developer.</h3>
             
             <p>
-              I'm pursuing an <span className="highlight">Honours B.Sc. in Mathematics / Honours B.Sc. in Computer Science (Data Science)</span> at the
+              I&apos;m pursuing an <span className="highlight">Honours B.Sc. in Mathematics / Honours B.Sc. in Computer Science (Data Science)</span> at the
               <span className="highlight"> University of Ottawa</span>.
               I currently maintain a 3.7/4.0 GPA and am passionate about building software that makes a difference.
             </p>
@@ -43,7 +43,7 @@ function About() {
 
             <p>
               I love exploring new technologies and participating in hackathons. 
-              I'm always eager to learn and take on new challenges.
+              I&apos;m always eager to learn and take on new challenges.
             </p>
 
             <p>

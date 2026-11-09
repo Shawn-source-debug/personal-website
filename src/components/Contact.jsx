@@ -11,9 +11,9 @@ function Contact() {
 
         <div className="contact-content">
           <p className="contact-description">
-            I'm currently looking for <span className="highlight">Summer 2027 internship opportunities</span>.
+            I&apos;m currently looking for <span className="highlight">Summer 2027 internship opportunities</span>.
             Whether you have a question, want to discuss a project, or just want to say hi, 
-            my inbox is always open. I'll do my best to get back to you!
+            my inbox is always open. I&apos;ll do my best to get back to you!
           </p>
 
           <div className="contact-links">

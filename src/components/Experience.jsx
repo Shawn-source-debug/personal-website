@@ -18,7 +18,7 @@ function Experience() {
             />
             <div>
               <h3>BMO Capital Markets</h3>
-              <p className="experience-role">Client Enablement Analyst - COO Office</p>
+              <p className="experience-role">Incoming Client Enablement Analyst - COO Office</p>
             </div>
             <div className="experience-meta">
               <span>Jan. 2027 - Apr. 2027</span>
