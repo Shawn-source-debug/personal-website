@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import PropTypes from 'prop-types'
 import './Navbar.css'
 
 function Navbar({ isMenuOpen, setIsMenuOpen }) {
@@ -53,6 +54,11 @@ function Navbar({ isMenuOpen, setIsMenuOpen }) {
       </div>
     </nav>
   )
+}
+
+Navbar.propTypes = {
+  isMenuOpen: PropTypes.bool.isRequired,
+  setIsMenuOpen: PropTypes.func.isRequired,
 }
 
 export default Navbar
